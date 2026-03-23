@@ -1,9 +1,9 @@
 
-# ======================================================
+# =======================================================
 # PROJECT: Status-Pulse (Landing Page & Server Monitor)
 # OWNER: Abade
 # YEAR: 2026
-# ======================================================
+# =======================================================
 # 2. Network Module: Creates the foundation (VPC, Subnet, IGW)
 module "network" {
   source      = "./modules/network"
