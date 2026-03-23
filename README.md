@@ -4,6 +4,7 @@
 ![Terraform](https://img.shields.io/badge/Terraform-1.5+-623CE4?logo=terraform)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker)
+[![Terraform CI/CD](https://github.com/IgorAbade14/Status-Pulse/actions/workflows/terraform.yaml/badge.svg?branch=main)](https://github.com/IgorAbade14/Status-Pulse/actions/workflows/terraform.yaml)
 
 **Status-Pulse** is an Infrastructure as Code (IaC) project designed to provision a complete, secure, and automated environment on AWS. It deploys a containerized web dashboard with a real-time operational clock, demonstrating the power of automated provisioning.
 
