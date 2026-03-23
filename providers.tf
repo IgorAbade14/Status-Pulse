@@ -3,17 +3,16 @@
 # ======================================================
 
 terraform {
-  # Ensures you are using a modern version of Terraform
   required_version = ">= 1.0.0"
+
+  backend "s3" {
+    bucket  = "status-pulse-assets-abade-2026" # O nome que você criou no S3
+    key     = "production/terraform.tfstate"
+    region  = "us-east-1"
+    encrypt = true
+  }
 }
 
-#  backend "s3" {
-#    bucket  = "status-pulse-assets-abade-2026" # Updated bucket name
-#    key     = "production/terraform.tfstate"
-#    region  = "us-east-1"
-#    encrypt = true
-# }
-#}
 
 # Provider AWS: The 'bridge' between your code and Amazon's Cloud
 provider "aws" {
