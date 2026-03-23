@@ -83,6 +83,8 @@ http://<INSTANCE_IP>
 ## 👨‍💻 Author
 
 https://github.com/IgorAbade14  
-DevOps & Cloud Infrastructure Enthusiast  
+https://www.linkedin.com/in/igorabade14/
 
-# Status-Pulse
+
+
+
