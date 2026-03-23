@@ -12,7 +12,7 @@
 ## 📸 Final Result
 *(Tip: Replace the link below with your actual screenshot from the repository)*
 
-![Status-Pulse Dashboard](https://raw.githubusercontent.com/YOUR_USERNAME/status-pulse-terraform-aws/main/screenshot.png)
+![Status-Pulse Dashboard](status-pulse-live.png)
 
 ---
 
